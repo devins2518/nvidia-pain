@@ -9,7 +9,7 @@ a few steps you can take to try and debug this issue, but it is still generally 
 working again.
 
 ### 1. Actually confirming it's an issue with NVIDIA
-Kill your compositor and open a terminal or switch to a TTY (using ctrl+alt+f{number}) so you can 
+Kill your compositor and open a terminal or switch to a TTY (using `ctrl`+`alt`+`f{number}`) so you can 
 run some commands. Run `glxinfo | grep OpenGl`. You might need to install glxinfo to run that
 command. If it outputs something like `OpenGL vendor string: NVIDIA Corporation` or `OpenGL 
 renderer string: GeForce GTX 1660 SUPER/PCIe/SSE2`, then your problem is not with the GPU or
